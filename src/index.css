@@ -1,13 +1,37 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .main{
+    background-image: url('/src/logos/intelligent_sensors.jpg');
+   }
+
+  .logo{
+    background-image: url('/src/logos/Group\ 10.png') ;
+    }
+  
+  .first-section{
+    background-image: url('/src/logos/lens_flare.jpg') ;
+    }
+
+  .small-button{
+    background: url('/src/logos/Rectangle\ 5.png') no-repeat;
+    }
+  
+  .large{
+    background-image: url('/src/logos/Rectangle\ 1.png');
+  }
+
+  .third-section{
+    background-image: url('/src/logos/camera_lens.jpg');
+  }
