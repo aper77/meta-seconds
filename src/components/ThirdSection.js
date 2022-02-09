@@ -12,21 +12,25 @@ export default function ThirdSection() {
                 <p>MetaEdge Technologies LLC. provides innovative optical sensor
                     solutions that incorporate cutting-edge optical technologies
                     to enable intelligent sensor applications</p>
-                <div className='text-center'>
+                <div className='text-center web'>
                     <LargeButton divStyle={"btn"} value={" Cutting-Edge Optical Technologies"} />
+                    <div className='d-flex'>
+                        <SmallButton styleName={"second-page-buttons"} value={"Meta Materials"} />
+                        <SmallButton styleName={"second-page-buttons"} value={"Diffractive Optics"} />
+                    </div>
+                    <div className='d-flex'>
+                        <SmallButton styleName={"second-page-buttons"} value={"Plasmonics"} />
+                        <SmallButton styleName={"second-page-buttons"} value={"Liquid Crystals"} />
+                    </div>
+                    <div className='text-center'>
+                        <SmallButton styleName={"second-page-buttons"} value={"Active Wavefront"} />
+                    </div>
                 </div>
-                <br />
-                <br />
-                <div className='d-flex'>
-                    <SmallButton styleName={"second-page-buttons"} value={"Meta Materials"} />
-                    <SmallButton styleName={"second-page-buttons"} value={"Diffractive Optics"} />
-                </div>
-                <div className='d-flex'>
-                    <SmallButton value={"Plasmonics"} />
-                    <SmallButton value={"Liquid Crystals"} />
-                </div>
-                <div className='text-center btns'>
-                    <SmallButton value={"Active Wavefront"} />
+                <div class="btn-group-vertical mobile-btn">
+                    <SmallButton styleName={"mobile-btns"} value={"Distributed"} />
+                    <SmallButton styleName={"mobile-btns"} value={"Sensor Fusion "} />
+                    <SmallButton styleName={"mobile-btns"} value={"Device Monitoring"} />
+                    <SmallButton styleName={"mobile-btns"} value={"Data Analytics "} />
                 </div>
             </div>
         </div >

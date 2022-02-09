@@ -15,7 +15,7 @@ export default function FirstSection() {
                 cost optical instruments with new sensing capabilities, improved performance,<br />
                 increased efficiency and decreased size.
             </p>
-            <div class="d-inline p-2">
+            <div class="d-inline p-2 form">
                 <SmallButton value={"Intelligent"} />
                 <SmallButton value={"Sensors"} />
             </div>

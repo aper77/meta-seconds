@@ -18,12 +18,19 @@ export default function SecondSection() {
                         captured data, enabling smart sensing applications.</p>
                 </div>
                 <div class=" col-4 btn-group-vertical second-buttons-group">
-                    <LargeButton value={"Intelligent Sensor Platform "} />
+                    <LargeButton value={" Cutting-Edge Optical"} />
                     <SmallButton styleName={"second-page-buttons"} value={"Cloud Computing "} />
-                    <SmallButton styleName={"second-page-buttons"} value={"Distributed Sensors"} />
+                    <SmallButton styleName={"second-page-buttons"} value={"Distributed"} />
                     <SmallButton styleName={"second-page-buttons"} value={"Sensor Fusion "} />
                     <SmallButton styleName={"second-page-buttons"} value={"Device Monitoring"} />
                     <SmallButton styleName={"second-page-buttons"} value={"Data Analytics "} />
+                </div>
+
+                <div class="btn-group-vertical mobile-btn">
+                    <SmallButton styleName={"mobile-btns"} value={"Distributed"} />
+                    <SmallButton styleName={"mobile-btns"} value={"Sensor Fusion "} />
+                    <SmallButton styleName={"mobile-btns"} value={"Device Monitoring"} />
+                    <SmallButton styleName={"mobile-btns"} value={"Data Analytics "} />
                 </div>
             </div></div>
     )
